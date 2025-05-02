@@ -3,7 +3,7 @@ from app.endpoints import generate, parse_email, extract_schedule, extract_miles
 
 app = FastAPI()
 
-app.include_router(generate.router)
-app.include_router(parse_email.router)
-app.include_router(extract_schedule.router)
-app.include_router(extract_milestone.router)
+app.include_router(generate)
+app.include_router(parse_email)
+app.include_router(extract_schedule)
+app.include_router(extract_milestone)
