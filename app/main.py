@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import generate, parse_email, extract_schedule, extract_milestone
+from app.endpoints import generate, parse_email, extract_schedule, extract_milestone
 
 app = FastAPI()
 
